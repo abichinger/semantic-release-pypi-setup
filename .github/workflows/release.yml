@@ -30,5 +30,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
-          TWINE_REPOSITORY: testpypi
         run: npx semantic-release
