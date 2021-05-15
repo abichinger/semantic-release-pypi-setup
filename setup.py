@@ -4,7 +4,6 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    version = '1.0.0',
     name = 'semantic-release-pypi-example',
     packages = ['semantic_release_pypi_example'],
     license='MIT',
