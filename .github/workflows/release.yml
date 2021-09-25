@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 14
       - name: Install semantic-release
         run: npm install -g semantic-release @semantic-release/github @semantic-release/commit-analyzer @semantic-release/git @semantic-release/release-notes-generator semantic-release-pypi
       - name: Set up Python
