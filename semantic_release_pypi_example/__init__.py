@@ -20,3 +20,4 @@ def mod(a,b):
 
 if __name__ == '__main__':
     print(f'1+1={add(1,1)}')
+    print(f'2-1={sub(2,1)}')
