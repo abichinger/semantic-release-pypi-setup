@@ -9,4 +9,4 @@ important files:
 
 ### Other templates
 
-[`pyproject.toml`]() based 
+[`pyproject.toml`](https://github.com/abichinger/semantic-release-pypi-pyproject) based 
